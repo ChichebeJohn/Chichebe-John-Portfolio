@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chichebe John</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- <h1>Check out what I can do!!!!!</h1> -->
+      <span class="menu-icon" onclick="toggleMenu()">≡</span>
+      <nav id="navMenu">
+        <a href="index.html">About</a>
+        <a href="skill.html" class="active">Skill</a>
+        <a href="project.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <div class="image-container">
+      <img src="assets/cert4.png" alt="chichebe" class="styled-image" />
+    </div>
+    <script>
+      function toggleMenu() {
+        const navMenu = document.getElementById("navMenu");
+        navMenu.classList.toggle("active");
+      }
+    </script>
+    <section id="skills">
+      <div class="container">
+        <h2>My Skill</h2>
+        <p class="intro-text">
+          "I have a strong foundation in web development and I'm continuously
+          expanding my skill set" below are some of the technology and tools I
+          am proficient in:
+        </p>
+        <div class="skills-wrapper">
+          <div class="skill-item">
+            <h3>HTML5</h3>
+            <p>
+              Proficient in creating structured, semantic, and accessible web
+              pages
+            </p>
+          </div>
+
+          <div class="skill-item">
+            <h3>CSS3</h3>
+            <p>
+              Experienced in responsive design, animations, and layout
+              techniques.
+            </p>
+          </div>
+
+          <div class="skill-item">
+            <h3>JavaScript</h3>
+            <p>
+              Skilled in dynamic interactions, DOM manipulation, and ES6 syntax
+            </p>
+          </div>
+
+          <div class="skill-item">
+            <h3>React</h3>
+            <p>Proficient in building interactive UIs with state management.</p>
+          </div>
+
+          <div class="skill-item">
+            <h3>Git and Github</h3>
+            <p>Experienced in version control and collaborative workflows</p>
+          </div>
+          <div class="skill-item">
+            <h3>Responsive Design</h3>
+            <p>
+              Creating layouts that adapt to various screen sizes and devices.
+            </p>
+          </div>
+          <div class="skill-item">
+            <h3>Figma, Motiff, adobe</h3>
+            <p>
+              Proficient in creating interactive designs using the above
+              mentioned tools
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

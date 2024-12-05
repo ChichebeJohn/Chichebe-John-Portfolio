@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chichebe John</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- <h1>Hello, and Welcome.</h1> -->
+    <span class="menu-icon" onclick="toggleMenu()">≡</span>
+    <nav id="navMenu">
+      <a href="index.html" class="active">About</a>
+      <a href="skill.html">Skill</a> 
+       <a href="project.html">Projects</a>  
+       <a href="Contact.html">Contact</a>  
+      
+    </nav>
+  </header>
+  <div class="image-container">
+    <img src="assets/chichebe.png" alt="chichebe" class="styled-image">
+  </div>
+  <script>
+    function toggleMenu(){
+      const navMenu = document.getElementById('navMenu');
+      navMenu.classList.toggle('active');
+    }
+  </script>
+  <section id="about-me" style="padding: 40px; background-color:#f7f7f7; text-align: center; ">
+  <div>
+ <h2>About Me</h2>
+ <h2>Chichebe John Nmesoma</h2>
+ <p>"Hi! I'm Chichebe John Nmesoma, a passionate and aspiring frontend-developer, with a strong foundation in web design and development. I recently completed a software devewelopment course, and I'm constsantly honing my skills to bring creative ideas to life through interactive websites, I also have greate UI/UX design skill".</p> 
+
+ <p>My journey in tech began with curiosity for how websites work, which evoled into a dedicated learning path that included studying Computer Science at the prestigious Federal Polytechnic Bida and exploring various programming languages sand frameworks. I'm particularly intrested in frontend development, where I enjoy using technologies like HTML, CSS, JavaScript, and frameworks such as React to build user-friendly interfaces.</p>
+
+ <p>
+When I'm not coding, I love exploring new tools and techniques in design, learning from the developer community, and working on personal projects. I am to contribute my skills to projects that prioritize user experience and innovative design.
+<p> Feel free to browse through my website to see my projects and get in touch if you'd like to connect. I'm always excited to collaborate and learn from like-minded prefessionals in the industry!</p>
+ </p>
+  </div>
+</section>
+</body>
+</html>
